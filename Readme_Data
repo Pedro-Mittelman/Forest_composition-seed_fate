@@ -1,0 +1,26 @@
+ReadMe – 1.Seed fate Beech Seeds and 2.Plot Covariables
+1.Seed fate Beech Seeds
+Information about the fate of beech seeds - Fagus sylvatica -placed in the 4 sites in Northern Germany during Autumn .
+See exact locations at Mittelman et al., 2024- Forest composition shapes seed-rodent interactions in a gradient of broadleaves and conifers: https://doi.org/10.1111/1365-2664.14711
+Methods use to access seed fate was ‘tagged wire’ – a stainless-steel wire of 10 – to 15cm was attached to the beech seeds with a colorful flagtape in the end in order to find the seeds.
+Each line is a checkage of an individual seed
+Variables:
+Tree N - Number of the closet tree to where the seed pile was placed
+Id_seed_pile – unique identifier of that seed pile
+Id_seed – unique identifier of that seed
+Date – exact calendar date of checkage
+Day_Number – Checkage day of seeds
+Fate – What happened to the seed – I=Intact/ Non-harvested – P=Preyed upon/ eaten, M=Missing/Removed but with unknown fate, D=Dispersed
+   Notice that seeds that are carried away are not considered dispersed, seeds have to be caried away and alive to be considered dispersed. Some Preyed seeds have information on distance because they were carried and then eaten
+Change_since_last_check – Did something happened to the seed since the last check? Y or N
+Beech_seeds_perm2 – Number of estimated beech seeds in the specific plot that the seed was tracked. Estimation by ground quadrats
+Mice_Plot_density – Density of Apodemus mice (individuals per hectare) in the specific plot that the seed was tracked. Estimation was done by spatially explicit mark-recapture
+Vole_density - Density of bank voles Myorde glaerous (individuals per hectare) in the specific plot that the seed was tracked. Estimation was done by spatially explicit mark-recapture
+Understory_coverage – Total raw number of understory plants between 30 and 80 cm in height per plot, counted in 6 quadrats of 100m2 (10 x 10 m) 
+Species_APA- Area Potentially Available for either Norway Spruce, European beech or Douglas-fir in the plot. See Glatthorn, J. (2021). A spatially explicit index for tree species or trait diversity at neighborhood and stand level. Ecological Indicators, 130, 108073.
+Species_Basal_area- Total and percentual basal areas for either Norway Spruce, European beech or Douglas-fir in the plot
+
+2. Plot covariables
+Summary of previous information condensed per plot plus information on terrestrial small mammal richness and diversity (Shannon index)
+
+
